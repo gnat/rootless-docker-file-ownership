@@ -18,3 +18,7 @@ nsenter -U --preserve-credentials -n -m -t $(cat $XDG_RUNTIME_DIR/docker.pid) /u
 ### Friendly reminders
 * root from within the container namespace refers to the non-root invoking User. 
 * Rootless Docker currently does not handle this as of this writing (March 2022).
+
+### References
+* https://man7.org/linux/man-pages/man1/nsenter.1.html
+* https://www.redhat.com/sysadmin/container-namespaces-nsenter
