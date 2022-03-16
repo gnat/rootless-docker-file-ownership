@@ -1,5 +1,7 @@
 # Rootless Docker File Ownership Helper
 
+To help people running into this blocker until Docker gets around to resolving this issue.
+
 Reclaim file ownership back to user who starts a rootless container (1000), from the container operating User (typically 100998, 100000 ...)
 
 ### docker_reclaim.sh
